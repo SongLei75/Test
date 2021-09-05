@@ -1,8 +1,7 @@
 #ifndef _LIMIT_H_
 #define _LIMIT_H_
 
-typedef struct LimitAttrTag
-{
+typedef struct LimitAttrTag {
     sl_u32 tolerance;
     sl_u32 eleCnt;
 } LimitAttr;
